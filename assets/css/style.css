@@ -1,0 +1,584 @@
+/* ====iPhone 13 Pro Max - 1==== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ===Cabeçalho=== */
+header {
+    width: 100%;
+    height: 505px;
+    background-image: url('../img/header-background-phone.png');
+    background-size: cover;
+    /* faz a imagem cobrir todo o elemento */
+    background-position: center;
+    /* centraliza a imagem */
+}
+
+.conteiner-header {
+    width: 100%;
+    height: 366px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+}
+.flex-conteiner-header{
+    align-items:start;
+}
+
+.div-firts-text {
+    margin-top: 70px;
+    width: 278px;
+    height: 64px;
+}
+
+.firts-text {
+    font-family: Luckiest Guy;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.div-second-text {
+    width: 381px;
+    height: 132px;
+}
+
+.second-text {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* Botão */
+.conteiner-botao {
+    width: 381px;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.botao-baixar {
+    width: 381px;
+    height: 54px;
+    border-radius: 28px;
+    background-color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-baixar:hover {
+    color: blue;
+    background-color: whitesmoke;
+}
+
+.botao-abrir {
+    width: 381px;
+    height: 52px;
+    border-radius: 28px;
+    background-color: black;
+    color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-abrir:hover {
+    background-color: rgb(88, 83, 83);
+}
+
+/* ===Corpo=== */
+/* Primeira Seção */
+.conteirer-primeira-section {
+    width: 100%;
+    height: 573px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.primeira-section-img {
+    width: 379px;
+    height: 252px;
+    margin-top: 40px;
+}
+
+.primeira-section-text1 {
+    width: 370px;
+    height: 99px;
+}
+
+.section-text1 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.segunda-section-text2 {
+    width: 378px;
+    height: 88px;
+}
+
+.section-text2 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* Segunda Seção */
+.conteirer-segunda-section {
+    width: 100%px;
+    height: 573px;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.segunda-section-img {
+    width: 379px;
+    height: 252px;
+    margin-top: 40px;
+}
+
+.segunda-section-text3 {
+    width: 370px;
+    height: 99px;
+}
+
+.section-text3 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.segunda-section-text4 {
+    width: 370px;
+    height: 99px;
+}
+
+.section-text4 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* Terceira Seção */
+.conteiner-terceira-section {
+    width: 100%px;
+    height: 507px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.terceira-section-img {
+    width: 379px;
+    height: 252px;
+    margin-top: 40px;
+}
+
+.terceira-section-text5 {
+    width: 373px;
+    height: 33px;
+}
+
+.section-text5 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.terceira-section-text6 {
+    width: 378px;
+    height: 88px;
+}
+
+.section-text6 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* Quarta Seção */
+.conteiner-quarta-section {
+    width: 100%px;
+    height: 560px;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.quarta-section-img {
+    width: 379px;
+    height: 252px;
+}
+
+.quarta-section-text7 {
+    width: 376px;
+    height: 64px;
+    margin-top: 40px;
+}
+
+.section-text7 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.quarta-section-text8 {
+    width: 378px;
+    height: 110px;
+}
+
+.section-text8 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+footer {
+    width: 100%px;
+    height: 140px;
+    background-color: #23272A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* ==== Telas pequenas, laptops – 769px – 1024px ==== */
+@media screen and (min-width: 960px) {
+
+     /* ===Cabeçalho=== */
+     header {
+        width: 100%;
+        height: 459px;
+        background-image: url('../img/header_background.png');
+        
+    }
+    
+    .flex-conteiner-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 5%;
+       
+    }
+    .div-firts-text {
+        width: 313px;
+        height: 112px;
+        margin-top: 1%;
+    }
+
+    .firts-text {
+        font-family: 'Luckiest Guy', cursive;
+        font-weight: 400;
+        font-size: 40px;
+        Line-height: 40px;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .div-second-text {
+        Width: 757px;
+        Height: 66px;
+    }
+    .second-text {
+        font-family: Open Sans;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: whitesmoke;
+    }
+    /* Botão */
+.conteiner-botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:502px;
+    height:44px;
+    gap: 16px;
+}
+
+.botao-baixar {
+    border-radius: 28px;
+    width: 205px;
+    height: 44px;
+    padding: 10px 20px;
+    font-size: 16px; 
+    font-weight:400;
+    line-height:22px;
+    text-align:center;
+    background-color:#fff;
+    color:#23272A; 
+    border:none; 
+    cursor:pointer; 
+}
+.botao-abrir {
+    border-radius: 28px;
+    width: 300px;
+    height: 44px;
+    padding: 10px 20px;
+    font-size: 16px; 
+    font-weight:400;
+    line-height:16px;
+    text-align:center;
+    background-color:#23272A;
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+}
+    /* ===Corpo=== */
+    /* Primeira Seção */
+
+    .conteirer-primeira-section {
+        width: 100%;
+        height: 448px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .flex-primeira-section {
+        flex-direction: column;
+    }
+
+    /* Segunda Seção */
+    .conteirer-segunda-section {
+        width: 100%;
+        height: 448px;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+    .flex-segunda-section {
+        flex-direction: column;
+    }
+
+    /* Terceira Seção */
+    .conteiner-terceira-section {
+        width: 100%;
+        height: 448px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .flex-terceira-section {
+        flex-direction: column;
+    }
+
+    /* Quarta Seção */
+    .conteiner-quarta-section {
+        width: 100%;
+        height: 744px;
+
+    }
+
+    .quarta-section-text7 {
+        width: 408px;
+        height: 80px;
+    }
+
+    .section-text7 {
+        text-align: center;
+    }
+
+    .quarta-section-text8 {
+        width: 802px;
+        height: 44px;
+    }
+
+    .section-text8 {
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .quarta-section-img {
+        width: 588px;
+        height: 381px;
+    }
+
+   
+}
+/* ==== Desktops, telas grandes – 1025px – 1200px ==== */
+@media screen and (min-width: 1200px){
+
+    
+    .div-firts-text{
+        margin-bottom: 3%;
+    }
+    .firts-text {
+        font-size: 56px; 
+        line-height:56px;
+      
+    }
+    /* ===Corpo=== */
+    /* Primeira Seção */
+    .primeira-section-img {
+        width: 607px;
+        height: 394px;
+    }
+    
+    .primeira-section-text1 {
+        width: 329px;
+        height: 270px;
+    }
+    
+    .section-text1 {
+        font-family: Open Sans;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    /* Segunda Seção */
+    
+    .segunda-section-img {
+        width: 607px;
+        height: 394px;
+    }
+    .segunda-section-text2 {
+        width: 348px;
+        height: 88px;
+    }
+    .segunda-section-text3 {
+        width: 329px;
+        height: 108px;
+    }
+    
+    .section-text3 {
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .segunda-section-text4 {
+        width: 348px;
+        height: 88px;
+    }
+    
+    .section-text4 {
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    /* Terceira Seção */
+
+    .terceira-section-img {
+        width: 607px;
+        height: 394px;
+    }
+    
+    .terceira-section-text5 {
+        width: 329px;
+        height: 108px;
+    }
+    
+    .section-text5 {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .terceira-section-text6 {
+        width: 348px;
+        height: 110px;
+        margin-top: 3%;
+    }
+    
+    /* Quarta Seção */
+    
+    .quarta-section-img{
+        width: 784px;
+        height: 508px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .quarta-section-text7 {
+        width: 608px;
+        height: 80px;
+        
+    }
+    
+    .section-text7 {
+        font-family: Luckiest Guy;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+    .quarta-section-text8 {
+        width: 802px;
+        height: 44px;
+        margin-top: 3%;
+    }
+
+
+
+
+
+
+}
